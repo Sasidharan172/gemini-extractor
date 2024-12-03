@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Link Extractor",
+  "version": "1.0",
+  "description": "Analyzes webpage links using Google Safe Browsing API",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://safebrowsing.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
